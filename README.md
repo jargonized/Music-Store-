@@ -57,7 +57,7 @@ I. SUBFUNCTIONS
      2. Pass()
               -int Pass(void)
               -To generate login page 
-              -The user id and password is taken from the user. If the ID and password                                                        is invalid, the user is prompted and asked whether he/she wants to try again. If the user wants to reattempt, the control is transferred to the statement where ID is asked. If the user wants to exit, '0' is returned.  If the number of attempts exceeds 5, '0' is returned and the user is forced to exit from the Employee Submenu temporarily.  
+              -The user id and password is taken from the user. If the ID and password is invalid, the user is prompted and asked whether he/she wants to try again. If the user wants to reattempt, the control is transferred to the statement where ID is asked. If the user wants to exit, '0' is returned.  If the number of attempts exceeds 5, '0' is returned and the user is forced to exit from the Employee Submenu temporarily.  
    
       3. Subcheck(char *,char*)
               -int Subcheck(char *A,char *temp)
@@ -97,7 +97,7 @@ FUNCTIONS:
                                  1. Album
                                  2. Instrument
                                  3. Exit 
--All the details of the items the store has housed (irrespective of the quantity)are displayed according to the customer's choice.
+                      -All the details of the items the store has housed (irrespective of the quantity)are displayed according to the customer's choice.
      
 
               3.OrderBill()
@@ -114,7 +114,7 @@ FUNCTIONS:
                                      1. Album
                                      2. Instrument
                                      3. Exit
--The employee can choose one of the above to remove the data of an item from the store. 
+                     -The employee can choose one of the above to remove the data of an item from the store. 
 
              5.EI()
                    -void EI(void)
@@ -131,7 +131,7 @@ FUNCTIONS:
                                      1. Album
                                      2. Instrument
                                      3. Exit
--This function lets an employee to add the details of the new item that has been housed by the store. The function calls Next1() and Next2() to know the ID of the last item so as to generate the ID for the new product automatically.
+                     -This function lets an employee to add the details of the new item that has been housed by the store. The function calls Next1() and Next2() to know the ID of the last item so as to generate the ID for the new product automatically.
 
               7.AinSto()
                     -void AinSto(void)

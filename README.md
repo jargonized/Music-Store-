@@ -12,7 +12,6 @@ Note: This project was completed 5 years ago for my high school final project. D
 
 FILES USED:
 1.	BILL.DAT - Used to record all the generated bills.  
--  Structure used:
 ```
  struct Bill
 {int id;
@@ -22,7 +21,6 @@ FILES USED:
     };
 ```
 2.	ALBUM.DAT - Used to store the information of the albums available
-- Structure used:
 ```
 struct Album
 {char Name[100],Category[20],
@@ -32,7 +30,6 @@ char Type[10],Artist[100];
   };
 ```
 3.	INSTRU.DAT - Used to store the information of the instruments available
--Structure used:
 ```
 struct Instrument
  {char Name[50],Category[20];
@@ -41,7 +38,6 @@ struct Instrument
    };
 ```
 4.	EMP.DAT - Used to store the login details of the employees
-- Structure used:
 ```
 struct Employee
 {int i;

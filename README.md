@@ -20,22 +20,25 @@ FILES USED:
                                                          float total;
                                                             };
 2.	ALBUM.DAT            - Used to store the information of the albums available
-	                                    - Structure used: 
+
+  	 - Structure used: 
                               struct Album
                                                          {char Name[100],Category[20],
                                                            char Type[10],Artist[100];
                                                            float price; int id;
                                                            long Qty;
                                                             };
-3.	INSTRU.DAT      -Used to store the information of the instruments available
-                                        -Structure used:
+4.	INSTRU.DAT      -Used to store the information of the instruments available
+
+  	   -Structure used:
                                                         struct Instrument
                                                          {char Name[50],Category[20];
                                                            float price;
                                                            long Qty;  int id;
                                                            };
-4.	EMP.DAT            -Used to store the login details of the employees
-                                        - Structure used:
+6.	EMP.DAT            -Used to store the login details of the employees
+
+  	 - Structure used:
                               struct Employee
                                                         {int i;
                                                          char pas[9];

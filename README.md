@@ -46,7 +46,7 @@ struct Employee
 ```
 
 USER DEFINED FUNCTIONS:
-
+```
 I. SUBFUNCTIONS
 1.	Disp()
                  - void Disp(void);
@@ -78,8 +78,8 @@ I. SUBFUNCTIONS
         7.Inst()
                -void Inst(void)
                - The function reads the ID of the instrument to be purchased from the customer. If the ID is valid, the customer is prompted to enter the number of units required. If sufficient units are available is customer moves to the next stage. If the number of units available is less than that of what the store has housed, the customer is asked whether he/she wants to continue billing for the same product, purchase some other product or end the billing process.
-
-
+```
+```
 FUNCTIONS:
 
           1. Emp()
@@ -162,5 +162,5 @@ FUNCTIONS:
                12.Exit()
                     -void Exit(void)
                     -When the user wants to exit, Exit() function is called. If the user enters 'y', the software quits else if the user presses 'n', the control is transferred back to the main menu.   
-
+```
 
